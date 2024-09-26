@@ -10,7 +10,7 @@ const headerLogo = document.createElement('img');
 headerLogo.src = '/logo.png';
 
 const headerTitle = document.createElement('h1');
-headerTitle.textContent = 'Grow Up Business';
+headerTitle.textContent = 'Grow Up';
 
 headerLeft.appendChild(headerLogo);
 headerLeft.appendChild(headerTitle);

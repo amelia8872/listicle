@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
   res.status(200).json(tipsData);
 });
 
-router.get('/:tipId', (req, res) => {
+router.get('/:id', (req, res) => {
   res.status(200).sendFile(path.resolve(__dirname, '../public/tip.html'));
 });
 

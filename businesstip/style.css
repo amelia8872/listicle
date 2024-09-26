@@ -139,7 +139,7 @@ main {
 
 /* Detail Page CSS*/
 
-.gift-info {
+.tip-info {
   display: flex;
   flex-direction: row;
 }
@@ -153,6 +153,6 @@ main {
   width: 80%;
 }
 
-.gift-details {
+.tip-details {
   width: 45vw;
 }
